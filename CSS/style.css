@@ -77,7 +77,13 @@
     background-color:#dde5b6;
     color: black;
     text-align: center;
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
+
 
 .masvendidosimg{
     margin-top: 10px;
@@ -116,7 +122,7 @@
 }
 
 .footer{
-    background-color: rgb(10, 99, 63);
+    background-image: linear-gradient(to top, rgb(10, 99, 63), rgb(45, 214, 146));
     color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
