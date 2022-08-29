@@ -90,7 +90,6 @@
     
 }
 
-
 .masvendidosimg{
     margin-top: 10px;
     margin-bottom: 25px;
@@ -165,7 +164,6 @@
     margin-top: 30px;
 }
 
-
 .productosimg{
     margin-top: 10px;
     margin-bottom: 25px;
@@ -188,7 +186,41 @@
     transform: scale(1.05);
 }
 
+.productos-nombre{
+    display: flex;
+    font-size: 32px;
+    color: #888f61;
+    font-family: 'Dancing Script';
+    justify-content: center;
+    padding: 6px;
+}
 
+.productos-precio{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #a7b078;
+    font-size: 18px;
+}
+
+.productos-boton{
+    background-color: #a7b078;
+    color: rgb(255, 255, 255);
+    border-color: #888f61;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-left: 70px;
+    padding: 7px;
+}
+
+.productos-boton:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    color: #a7b078;
+}
 
 .footer{
     background-image: linear-gradient(to top, rgb(10, 99, 63), rgb(45, 214, 146));
