@@ -39,6 +39,25 @@
     margin-top: 40px;
 }
 
+.imagen-carrusel{
+    width: 1400;
+    height: 400
+}
+
+@media (min-width: 768px){
+    .imagen-carrusel{
+        width: 1144;
+        height: 144;
+    }
+}
+
+@media (min-width: 320px){
+    .imagen-carrusel{
+        width: 696;
+        height: ;
+    }
+}
+
 .logo-bajo-banner{
     display: flex;
     height: 200px;
