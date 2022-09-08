@@ -11,6 +11,28 @@ footer .footer_container .footer_secciones, footer .footer_container, footer {
   justify-content: space-evenly;
 }
 
+header .navbar {
+  background-color: rgb(10, 99, 63);
+}
+header .navbar .container-fluid .logo-nav {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
+}
+header .navbar .container-fluid .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .navbar .container-fluid .form-control {
+  height: 30px;
+}
+header .navbar .container-fluid .btn-outline-success {
+  height: 30px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
 .cuerpo-plantas .plantas-titulo-box {
   margin: 70px;
   display: flex;
