@@ -253,6 +253,17 @@
     list-style: none;
 }
 
+/* CONTACTO */
+.submitbutton{
+    background-color: #a7b078 ;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 6px;
+    border-color: #888f61;
+}
+
 
 @media (min-width: 768px){
     .estructuragral-plantas{

@@ -1,0 +1,9 @@
+Agregué:
+
+<meta name="description" content="Garden Point ofrece una amplia gama de plantas y decoración de excelente calidad para crear en tus propios espacios">
+
+
+<meta name="keywords"  content="plantas, decoracion, macetas, vivero, jardineria, regalos">
+
+
+<title>Plantas</title>

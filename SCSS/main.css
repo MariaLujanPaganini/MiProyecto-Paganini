@@ -1,0 +1,121 @@
+footer .footer_container .footer_secciones, footer .footer_container, footer {
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cuerpo-plantas .plantas-titulo-box {
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+}
+.cuerpo-plantas .plantas-titulo-box .plantas-tt {
+  font-size: 60px;
+  color: #a7b078;
+  color: #a7b078;
+  font-weight: lighter;
+  font-family: "Dancing Script";
+}
+.cuerpo-plantas section {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  grid-template-rows: repeat 8, 1fr;
+  margin-bottom: 120px;
+}
+.cuerpo-plantas section .plantas1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.cuerpo-plantas section .plantas1 .productosimg {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 7px;
+  display: flex;
+  height: 280px;
+  width: 250px;
+  background-color: #a7b078;
+  border-radius: 6px;
+  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.cuerpo-plantas section .plantas1:hover {
+  transform: scale(1);
+}
+.cuerpo-plantas section .plantas1 .productos-nombre {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  padding: 6px;
+  color: #888f61;
+  font-weight: lighter;
+  font-family: "Dancing Script";
+}
+.cuerpo-plantas section .plantas1 .productos-precio {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #a7b078;
+  font-size: 18px;
+}
+.cuerpo-plantas section .plantas1 .productos-boton {
+  background-color: #a7b078;
+  color: rgb(255, 255, 255);
+  border-color: #888f61;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  margin-left: 70px;
+  padding: 7px;
+}
+.cuerpo-plantas section .plantas1:hover {
+  transform: scale(1);
+  background-color: rgb(255, 255, 255);
+  color: #a7b078;
+}
+
+footer {
+  background-color: rgb(10, 99, 63);
+  color: rgb(255, 255, 255);
+}
+footer .footer_container .footer_secciones .secciones {
+  font-size: 30px;
+}
+footer .footer_container .footer_secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+}
+footer .footer_container .footer_secciones .footer-lista .footer__linkredes {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .estructuragral-plantas {
+    grid-template-columns: 2fr;
+    grid-template-rows: 4fr;
+  }
+}
+@media (min-width: 1024px) {
+  .estructuragral-plantas {
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+  }
+}/*# sourceMappingURL=main.css.map */

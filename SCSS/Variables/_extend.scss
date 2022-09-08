@@ -1,0 +1,14 @@
+%estiloFooter{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@mixin fontStyle ($colorletra) {
+    color: $colorletra;
+    font-weight: lighter;
+    font-family: 'Dancing Script';
+}
