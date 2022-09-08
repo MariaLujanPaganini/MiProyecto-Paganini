@@ -1,11 +1,7 @@
 footer .footer_container .footer_secciones, footer .footer_container, footer {
   display: flex;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  height: auto;
+  width: auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
