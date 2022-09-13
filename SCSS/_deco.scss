@@ -25,13 +25,14 @@ header {
         }
     }
 }
-.cuerpo-plantas {
-    .plantas-titulo-box {
+
+.cuerpo-deco {
+    .deco-titulo-box {
         margin: 70px;
         display: flex;
         justify-content: center;
 
-        .plantas-tt {
+        .deco-tt {
             font-size: 60px;
             color: #a7b078;
             @include fontStyle (#a7b078)
@@ -44,14 +45,14 @@ header {
         grid-template-rows: repeat (8, 1fr);
         margin-bottom: 120px;
 
-        .plantas1 {
+        .deco1 {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
             margin-top: 30px;
 
-            .productosimg {
+            .decoimg {
                 margin-top: 10px;
                 margin-bottom: 25px;
                 margin-right: 15px;
@@ -73,7 +74,7 @@ header {
                 transform: scale(1);
                 }
 
-            .productos-nombre {
+            .deco-nombre {
                 display: flex;
                 font-size: 32px;
                 justify-content: center;
@@ -81,7 +82,7 @@ header {
                 @include fontStyle (#888f61)
             }
 
-            .productos-precio {
+            .deco-precio {
                 display: flex;
                 justify-content: center;
                 font-family: 'Roboto Condensed', sans-serif;
@@ -167,14 +168,14 @@ footer {
 
 
 @media (min-width: 768px) {
-    .estructuragral-plantas {
+    .estructuragral-deco {
         grid-template-columns: 2fr;
         grid-template-rows: 4fr;
     }
 }
 
 @media (min-width: 1024px) {
-    .estructuragral-plantas {
+    .estructuragral-deco {
         grid-template-columns: 4fr;
         grid-template-rows: 1fr;
     }

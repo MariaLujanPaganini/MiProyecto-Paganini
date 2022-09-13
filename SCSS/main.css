@@ -1,10 +1,161 @@
-footer .footer_container .footer_secciones, footer .footer_container, footer {
+footer .footer__container .footer__secciones, footer .footer__container, footer {
   display: flex;
   height: auto;
   width: auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+header .navbar {
+  background-color: rgb(10, 99, 63);
+}
+header .navbar .container-fluid .logo-nav {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
+}
+header .navbar .container-fluid .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .navbar .container-fluid .form-control {
+  height: 30px;
+}
+header .navbar .container-fluid .btn-outline-success {
+  height: 30px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.carrusel-inicio {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.logo-bajo-banner {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.productos-index {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 120px;
+}
+.productos-index .masvendidos__tt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+  color: #888f61;
+  font-family: "Dancing Script", cursive;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  padding-left: 30px;
+  border-width: 8px;
+}
+.productos-index .masvendidos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 40px;
+  padding: 0%;
+}
+.productos-index .masvendidos .masvendidos__productos {
+  background-color: #dde5b6;
+  color: black;
+  text-align: center;
+  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  margin-bottom: 20px;
+}
+.productos-index .masvendidos .masvendidos__productos .masvendidosimg {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 2px;
+}
+.productos-index .masvendidos .masvendidos__productos .masvendidos__nombre {
+  font-family: "Dancing Script", cursive;
+  color: #888f61;
+  font-size: 30px;
+}
+.productos-index .masvendidos .masvendidos__productos .masvendidos__precio {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #a7b078;
+  font-size: 20px;
+}
+.productos-index .masvendidos .masvendidos__productos .masvendidos__boton {
+  background-color: #a7b078;
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  border-radius: 6px;
+  border-color: #888f61;
+}
+.productos-index .masvendidos:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: rgb(10, 99, 63);
+  color: rgb(255, 255, 255);
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer .footer__container .footer__secciones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+}
+footer .footer__container .footer__secciones h4 {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes {
+  margin: 10px;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
 }
 
 header .navbar {
@@ -112,14 +263,42 @@ footer {
   background-color: rgb(10, 99, 63);
   color: rgb(255, 255, 255);
 }
-footer .footer_container .footer_secciones .secciones {
-  font-size: 30px;
+footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
-footer .footer_container .footer_secciones .footer-lista {
+footer .footer__container .footer__secciones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+}
+footer .footer__container .footer__secciones h4 {
   list-style: none;
   text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-footer .footer_container .footer_secciones .footer-lista .footer__linkredes {
+footer .footer__container .footer__secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes {
+  margin: 10px;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;
@@ -136,4 +315,339 @@ footer .footer_container .footer_secciones .footer-lista .footer__linkredes {
     grid-template-columns: 4fr;
     grid-template-rows: 1fr;
   }
+}
+header .navbar {
+  background-color: rgb(10, 99, 63);
+}
+header .navbar .container-fluid .logo-nav {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
+}
+header .navbar .container-fluid .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .navbar .container-fluid .form-control {
+  height: 30px;
+}
+header .navbar .container-fluid .btn-outline-success {
+  height: 30px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.cuerpo-deco .deco-titulo-box {
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+}
+.cuerpo-deco .deco-titulo-box .deco-tt {
+  font-size: 60px;
+  color: #a7b078;
+  color: #a7b078;
+  font-weight: lighter;
+  font-family: "Dancing Script";
+}
+.cuerpo-deco section {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  grid-template-rows: repeat 8, 1fr;
+  margin-bottom: 120px;
+}
+.cuerpo-deco section .deco1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.cuerpo-deco section .deco1 .decoimg {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 7px;
+  display: flex;
+  height: 280px;
+  width: 250px;
+  background-color: #a7b078;
+  border-radius: 6px;
+  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.cuerpo-deco section .deco1:hover {
+  transform: scale(1);
+}
+.cuerpo-deco section .deco1 .deco-nombre {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  padding: 6px;
+  color: #888f61;
+  font-weight: lighter;
+  font-family: "Dancing Script";
+}
+.cuerpo-deco section .deco1 .deco-precio {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #a7b078;
+  font-size: 18px;
+}
+.cuerpo-deco section .deco1 .productos-boton {
+  background-color: #a7b078;
+  color: rgb(255, 255, 255);
+  border-color: #888f61;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  margin-left: 70px;
+  padding: 7px;
+}
+.cuerpo-deco section .deco1:hover {
+  transform: scale(1);
+  background-color: rgb(255, 255, 255);
+  color: #a7b078;
+}
+
+footer {
+  background-color: rgb(10, 99, 63);
+  color: rgb(255, 255, 255);
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer .footer__container .footer__secciones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+}
+footer .footer__container .footer__secciones h4 {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes {
+  margin: 10px;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .estructuragral-deco {
+    grid-template-columns: 2fr;
+    grid-template-rows: 4fr;
+  }
+}
+@media (min-width: 1024px) {
+  .estructuragral-deco {
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+  }
+}
+header .navbar {
+  background-color: rgb(10, 99, 63);
+}
+header .navbar .container-fluid .logo-nav {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
+}
+header .navbar .container-fluid .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .navbar .container-fluid .form-control {
+  height: 30px;
+}
+header .navbar .container-fluid .btn-outline-success {
+  height: 30px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.cuerpo-contacto {
+  height: 450px;
+}
+.cuerpo-contacto legend {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-family: "Dancing Script";
+  font-size: 60px;
+  color: #a7b078;
+}
+.cuerpo-contacto .form-group {
+  border-color: rgb(10, 99, 63);
+}
+.cuerpo-contacto .form-group .submitbotton {
+  background-color: #a7b078;
+  color: rgb(255, 255, 255);
+  border-color: #888f61;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  margin-left: 70px;
+  padding: 7px;
+}
+.cuerpo-contacto .form-group:hover {
+  transform: scale(1);
+  background-color: rgb(255, 255, 255);
+  color: #a7b078;
+}
+
+footer {
+  background-color: rgb(10, 99, 63);
+  color: rgb(255, 255, 255);
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer .footer__container .footer__secciones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+}
+footer .footer__container .footer__secciones h4 {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes {
+  margin: 10px;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+header .navbar {
+  background-color: rgb(10, 99, 63);
+}
+header .navbar .container-fluid .logo-nav {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
+}
+header .navbar .container-fluid .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .navbar .container-fluid .form-control {
+  height: 30px;
+}
+header .navbar .container-fluid .btn-outline-success {
+  height: 30px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+main {
+  height: 450px;
+  background-color: #a7b078;
+}
+main h1 {
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script";
+}
+
+footer {
+  background-color: rgb(10, 99, 63);
+  color: rgb(255, 255, 255);
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer .footer__container .footer__secciones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+}
+footer .footer__container .footer__secciones h4 {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista {
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes {
+  margin: 10px;
+}
+footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-
+/* 
 .logo-nav{
     border-radius: 20%;
 }
@@ -129,7 +129,7 @@
 .estructuragral-plantas{
     /* display: flex;
     flex-wrap: wrap; */
-    display: grid;
+    /* display: grid;
     grid-template-columns: (1,1fr);
     grid-template-rows: repeat (8, 1fr);
     margin-bottom: 120px;
@@ -239,7 +239,7 @@
     justify-content: space-evenly;
 }
 
-.footer__secciones{
+/* .footer__secciones{
     display: flex;
     flex-direction: row;
 }
@@ -254,7 +254,7 @@
 }
 
 /* CONTACTO */
-.submitbutton{
+/* .submitbutton{
     background-color: #a7b078 ;
     color: rgb(255, 255, 255);
     display: flex;
@@ -277,4 +277,4 @@
         grid-template-columns: 4fr;
         grid-template-rows: 1fr;
     }
-}
+} */ 
