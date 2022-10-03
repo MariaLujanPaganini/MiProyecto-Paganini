@@ -11,7 +11,7 @@
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
   <!-- <link rel="stylesheet" href="../CSS/style.css"> -->
-  <link rel="stylesheet" href="../SCSS/main.scss">
+  <link rel="stylesheet" href="../SCSS/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto+Condensed?query=roboto">
 </head>
@@ -50,7 +50,7 @@
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+            <input class="form-control me-2" type="search" placeholder="- - -" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
         </div>
@@ -120,39 +120,39 @@
   <footer>
     <div class="footer__container">
       <div class="footer__secciones">
-        <h4 class="secciones">Secciones</h4>
+        <span class="secciones">Secciones</span>
         <ul class="footer-lista">
-          <li class="footer__link" href="../index.html">
-            <h6 class="footer__formato">Inicio</h6>
+          <li class="footer__link">
+            <a class="footer__formato" href="../index.html">Inicio</a>
           </li>
-          <li class="footer__link" href="./plantas.html">
-            <h6 class="footer__formato">Productos</h6>
+          <li class="footer__link">
+            <a class="footer__formato" href="./plantas.html">Productos</a>
           </li>
-          <li class="footer__link" href="./Pages/cuidados.html">
-            <h6 class="footer__formato">Cuidados</h6>
+          <li class="footer__link">
+            <a class="footer__formato" href="./cuidados.html">Cuidados</a>
           </li>
-          <li class="footer__link" href="./Pages/contacto.html">
-            <h6 class="footer__formato">Contacto</h6>
+          <li class="footer__link">
+            <a class="footer__formato" href="./contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
       <div class="footer__secciones">
-        <h4 class="seguinos">Seguinos</h4>
+        <span class="secciones">Seguinos</span>
         <ul class="footer-lista">
           <li class="footer__redes">
-            <img src="../Imagenes/facebook.png" alt="facebook">
+            <i class="fi fi-brands-facebook"></i>
             <a class="footer__linkredes" href="https://es-la.facebook.com/" target="_blank">
               Facebook
             </a>
           </li>
           <li class="footer__redes">
-            <img src="../Imagenes/instagram.png" alt="instagram">
+            <i class="fi fi-brands-instagram"></i>
             <a class="footer__linkredes" href="https://www.instagram.com/" target="_blank">
               Instagram
             </a>
           </li>
           <li class="footer__redes">
-            <img src="../Imagenes/gorjeo.png" alt="twitter">
+            <i class="fi fi-brands-twitter"></i>
             <a class="footer__linkredes" href="https://twitter.com/" target="_blank">
               Twitter
             </a>
@@ -160,19 +160,16 @@
         </ul>
       </div>
       <div class="footer__secciones">
-        <h4 class="mediosdepago">Medios de Pago</h4>
+        <span class="secciones">Medios de Pago</span>
         <ul class="footer-lista">
           <li class="footer__redes">
-            <img src="../Imagenes/visa.png" alt="">
-            <a class="footer__linkredes" href="">Visa</a>
+            <span class="footer__linkredes">Visa</span>
           </li>
           <li class="footer__redes">
-            <a class="footer__linkredes" href="">Master Card</a>
-            <i class="fa-brands fa-cc-mastercard"></i>
+            <span class="footer__linkredes">Mercado Pago</span>
           </li>
           <li class="footer__redes">
-            <img src="../Imagenes/american-express.png" alt="">
-            <a class="footer__linkredes" href="">American Express</a>
+            <span class="footer__linkredes">American Express</span>
           </li>
       </div>
     </div>

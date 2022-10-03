@@ -27,33 +27,50 @@ header {
 }
 
 .cuerpo-contacto{
-    height: 450px;
+    height: auto;
+    background-color: #a7b078;
+    width: auto;
     legend{
-        margin-top: 35px;
-        margin-bottom: 20px;
         font-family: 'Dancing Script';
         font-size: 60px;
-        color: #a7b078;
+        color: rgb(255, 255, 255);
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
-    .form-group{
-        border-color: rgb(10, 99, 63);
-        .submitbotton{
-            background-color: #a7b078;
-                color: rgb(255, 255, 255);
-                border-color: #888f61;
-                border-radius: 5px;
-                transition-property: all;
-                transition-duration: 0.3s;
-                transition-timing-function: ease;
-                transition-delay: 0s;
-                margin-left: 70px;
-                padding: 7px;
+    .formulario{
+        margin-bottom: 15%;
+        .descripcion{
+            margin-left: 25%;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
         }
-        &:hover {
-            transform: scale(1.0);
-            background-color: rgb(255, 255, 255);
-            color: #a7b078;
-            }
+        .form-control{
+        border-color: #888f61;
+        border-width: 5px;
+        margin-left: 25%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        }
+        .submitbotton{
+            background-color: #888f61;
+            color: rgb(255, 255, 255);
+            border-color: #888f61;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            margin-left: 70px;
+            padding: 7px;
+            margin-top: 5%;
+            &:hover {
+                    transform: scale(1.0);
+                    background-color: rgb(255, 255, 255);
+                    color: #888f61;
+                    }
+        }
     }
 }
 
@@ -78,27 +95,42 @@ footer {
             margin-right: 130px;
             align-items: center;
 
-            h4 {
+            .secciones {
                 list-style: none;
                 text-decoration: none;
                 margin-top: 10px;
+                margin-bottom: 10px;
                 display: flex;
-                text-decoration-line: underline;
                 text-decoration-color: rgb(255, 255, 255);
-                font-size: 20px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-            }
-
-            .footer-lista {
-                list-style: none;
-                text-decoration: none;
-                text-align: start;
                 font-size: 15px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
+                border-style: groove;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 30px;
+            }
+                .footer__link{
+                list-style: none;
+                }
+
+                    .footer__formato{
+                    font-size: 15px;
+                    list-style: none;
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    text-align: start;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                    }
 
                 .footer__redes{
                     margin: 10px;
-                
+                    list-style: none;
+                    .mplogo{
+                        width: 20px;
+                        height: 20px;
+                    }
 
                     .footer__linkredes {
                     text-decoration: none;
@@ -109,5 +141,4 @@ footer {
             }
         }
     }
-}
 

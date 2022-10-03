@@ -1,3 +1,4 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
 footer .footer__container .footer__secciones, footer .footer__container, footer {
   display: flex;
   height: auto;
@@ -40,7 +41,7 @@ header .navbar .container-fluid .btn-outline-success {
   height: 200px;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .productos-index {
@@ -57,7 +58,7 @@ header .navbar .container-fluid .btn-outline-success {
   font-family: "Dancing Script", cursive;
   margin-left: 70px;
   margin-right: 70px;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 70px;
   padding-left: 30px;
   border-width: 8px;
@@ -82,6 +83,9 @@ header .navbar .container-fluid .btn-outline-success {
   transition-timing-function: ease;
   transition-delay: 0s;
   margin-bottom: 20px;
+}
+.productos-index .masvendidos .masvendidos__productos:hover {
+  transform: scale(1.05);
 }
 .productos-index .masvendidos .masvendidos__productos .masvendidosimg {
   margin-top: 10px;
@@ -109,9 +113,6 @@ header .navbar .container-fluid .btn-outline-success {
   border-radius: 6px;
   border-color: #888f61;
 }
-.productos-index .masvendidos:hover {
-  transform: scale(1.05);
-}
 
 footer {
   background-color: rgb(10, 99, 63);
@@ -130,29 +131,39 @@ footer .footer__container .footer__secciones {
   margin-right: 130px;
   align-items: center;
 }
-footer .footer__container .footer__secciones h4 {
+footer .footer__container .footer__secciones .secciones {
   list-style: none;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer .footer__container .footer__secciones .footer-lista {
-  list-style: none;
-  text-decoration: none;
-  text-align: start;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: groove;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes {
+footer .footer__container .footer__secciones .footer__formato {
+  font-size: 15px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer__redes {
   margin: 10px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+footer .footer__container .footer__secciones .footer__redes .mplogo {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__container .footer__secciones .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;
@@ -205,6 +216,16 @@ header .navbar .container-fluid .btn-outline-success {
   justify-content: space-around;
   margin-top: 30px;
 }
+.cuerpo-plantas section .plantas1 .plantas-productos1 {
+  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.cuerpo-plantas section .plantas1 .plantas-productos1:hover {
+  transform: scale(1.05);
+}
 .cuerpo-plantas section .plantas1 .productosimg {
   margin-top: 10px;
   margin-bottom: 25px;
@@ -216,14 +237,6 @@ header .navbar .container-fluid .btn-outline-success {
   width: 250px;
   background-color: #a7b078;
   border-radius: 6px;
-  transition: 0.3s;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-.cuerpo-plantas section .plantas1:hover {
-  transform: scale(1);
 }
 .cuerpo-plantas section .plantas1 .productos-nombre {
   display: flex;
@@ -253,7 +266,7 @@ header .navbar .container-fluid .btn-outline-success {
   margin-left: 70px;
   padding: 7px;
 }
-.cuerpo-plantas section .plantas1:hover {
+.cuerpo-plantas section .plantas1 .productos-boton:hover {
   transform: scale(1);
   background-color: rgb(255, 255, 255);
   color: #a7b078;
@@ -276,29 +289,39 @@ footer .footer__container .footer__secciones {
   margin-right: 130px;
   align-items: center;
 }
-footer .footer__container .footer__secciones h4 {
+footer .footer__container .footer__secciones .secciones {
   list-style: none;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer .footer__container .footer__secciones .footer-lista {
-  list-style: none;
-  text-decoration: none;
-  text-align: start;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: groove;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes {
+footer .footer__container .footer__secciones .footer__formato {
+  font-size: 15px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer__redes {
   margin: 10px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+footer .footer__container .footer__secciones .footer__redes .mplogo {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__container .footer__secciones .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;
@@ -363,6 +386,16 @@ header .navbar .container-fluid .btn-outline-success {
   justify-content: space-around;
   margin-top: 30px;
 }
+.cuerpo-deco section .deco1 .deco-productos1 {
+  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.cuerpo-deco section .deco1 .deco-productos1:hover {
+  transform: scale(1.05);
+}
 .cuerpo-deco section .deco1 .decoimg {
   margin-top: 10px;
   margin-bottom: 25px;
@@ -374,14 +407,6 @@ header .navbar .container-fluid .btn-outline-success {
   width: 250px;
   background-color: #a7b078;
   border-radius: 6px;
-  transition: 0.3s;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-.cuerpo-deco section .deco1:hover {
-  transform: scale(1);
 }
 .cuerpo-deco section .deco1 .deco-nombre {
   display: flex;
@@ -399,7 +424,7 @@ header .navbar .container-fluid .btn-outline-success {
   color: #a7b078;
   font-size: 18px;
 }
-.cuerpo-deco section .deco1 .productos-boton {
+.cuerpo-deco section .deco1 .deco-boton {
   background-color: #a7b078;
   color: rgb(255, 255, 255);
   border-color: #888f61;
@@ -411,7 +436,7 @@ header .navbar .container-fluid .btn-outline-success {
   margin-left: 70px;
   padding: 7px;
 }
-.cuerpo-deco section .deco1:hover {
+.cuerpo-deco section .deco1 .deco-boton:hover {
   transform: scale(1);
   background-color: rgb(255, 255, 255);
   color: #a7b078;
@@ -434,29 +459,39 @@ footer .footer__container .footer__secciones {
   margin-right: 130px;
   align-items: center;
 }
-footer .footer__container .footer__secciones h4 {
+footer .footer__container .footer__secciones .secciones {
   list-style: none;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer .footer__container .footer__secciones .footer-lista {
-  list-style: none;
-  text-decoration: none;
-  text-align: start;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: groove;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes {
+footer .footer__container .footer__secciones .footer__formato {
+  font-size: 15px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer__redes {
   margin: 10px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+footer .footer__container .footer__secciones .footer__redes .mplogo {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__container .footer__secciones .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;
@@ -497,20 +532,36 @@ header .navbar .container-fluid .btn-outline-success {
 }
 
 .cuerpo-contacto {
-  height: 450px;
+  height: auto;
+  background-color: #a7b078;
+  width: auto;
 }
 .cuerpo-contacto legend {
-  margin-top: 35px;
-  margin-bottom: 20px;
   font-family: "Dancing Script";
   font-size: 60px;
-  color: #a7b078;
+  color: rgb(255, 255, 255);
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
-.cuerpo-contacto .form-group {
-  border-color: rgb(10, 99, 63);
+.cuerpo-contacto .formulario {
+  margin-bottom: 15%;
 }
-.cuerpo-contacto .form-group .submitbotton {
-  background-color: #a7b078;
+.cuerpo-contacto .formulario .descripcion {
+  margin-left: 25%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.cuerpo-contacto .formulario .form-control {
+  border-color: #888f61;
+  border-width: 5px;
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.cuerpo-contacto .formulario .submitbotton {
+  background-color: #888f61;
   color: rgb(255, 255, 255);
   border-color: #888f61;
   border-radius: 5px;
@@ -520,11 +571,12 @@ header .navbar .container-fluid .btn-outline-success {
   transition-delay: 0s;
   margin-left: 70px;
   padding: 7px;
+  margin-top: 5%;
 }
-.cuerpo-contacto .form-group:hover {
+.cuerpo-contacto .formulario .submitbotton:hover {
   transform: scale(1);
   background-color: rgb(255, 255, 255);
-  color: #a7b078;
+  color: #888f61;
 }
 
 footer {
@@ -544,29 +596,43 @@ footer .footer__container .footer__secciones {
   margin-right: 130px;
   align-items: center;
 }
-footer .footer__container .footer__secciones h4 {
+footer .footer__container .footer__secciones .secciones {
   list-style: none;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer .footer__container .footer__secciones .footer-lista {
-  list-style: none;
-  text-decoration: none;
-  text-align: start;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: groove;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes {
+footer .footer__container .footer__secciones .footer__link {
+  list-style: none;
+}
+footer .footer__container .footer__secciones .footer__formato {
+  font-size: 15px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer__redes {
   margin: 10px;
+  list-style: none;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+footer .footer__container .footer__secciones .footer__redes .mplogo {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__container .footer__secciones .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;
@@ -595,16 +661,65 @@ header .navbar .container-fluid .btn-outline-success {
 }
 
 main {
-  height: 450px;
+  height: auto;
   background-color: #a7b078;
 }
 main h1 {
-  margin: 70px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   display: flex;
   justify-content: center;
   font-size: 60px;
   color: rgb(255, 255, 255);
   font-family: "Dancing Script";
+}
+main h2 {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  border-style: double;
+  width: auto;
+}
+main .cuerpo-consejo ol {
+  color: rgb(255, 255, 255);
+}
+main .cuerpo-consejo ol h3 {
+  font-size: 30px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+main .cuerpo-consejo ol p {
+  display: inline-block;
+  width: 660px;
+  font-size: 17px;
+}
+main .cuerpo-consejo .video {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+main .cuerpo-consejo .video .transplante {
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  border-style: double;
+  padding-left: 25%;
+}
+main .cuerpo-consejo .video .reproductorvideo {
+  margin-left: 25%;
+  margin-top: 3%;
+  margin-bottom: 7%;
 }
 
 footer {
@@ -624,29 +739,39 @@ footer .footer__container .footer__secciones {
   margin-right: 130px;
   align-items: center;
 }
-footer .footer__container .footer__secciones h4 {
+footer .footer__container .footer__secciones .secciones {
   list-style: none;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer .footer__container .footer__secciones .footer-lista {
-  list-style: none;
-  text-decoration: none;
-  text-align: start;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: groove;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes {
+footer .footer__container .footer__secciones .footer__formato {
+  font-size: 15px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer__container .footer__secciones .footer__redes {
   margin: 10px;
 }
-footer .footer__container .footer__secciones .footer-lista .footer__redes .footer__linkredes {
+footer .footer__container .footer__secciones .footer__redes .mplogo {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__container .footer__secciones .footer__redes .footer__linkredes {
   text-decoration: none;
   color: rgb(255, 255, 255);
   list-style: none;

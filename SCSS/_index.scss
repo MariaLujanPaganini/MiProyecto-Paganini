@@ -37,7 +37,7 @@ header {
     height: 200px;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .productos-index{
     margin-left: 60px;
@@ -53,7 +53,7 @@ header {
     font-family: 'Dancing Script', cursive;
     margin-left: 70px;
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 70px;
     padding-left: 30px;
     border-width: 8px;
@@ -78,6 +78,9 @@ header {
         transition-timing-function: ease;
         transition-delay: 0s;
         margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
          .masvendidosimg{
             margin-top: 10px;
             margin-bottom: 25px;
@@ -103,11 +106,9 @@ header {
             margin-left: 100px;
             border-radius: 6px;
             border-color: #888f61;
-            }        
+            }      
         }
-        &:hover{
-        transform: scale(1.05);
-        }
+        
     }
 }
 
@@ -132,27 +133,38 @@ footer {
             margin-right: 130px;
             align-items: center;
 
-            h4 {
+            .secciones {
                 list-style: none;
                 text-decoration: none;
                 margin-top: 10px;
+                margin-bottom: 10px;
                 display: flex;
-                text-decoration-line: underline;
                 text-decoration-color: rgb(255, 255, 255);
-                font-size: 20px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-            }
-
-            .footer-lista {
-                list-style: none;
-                text-decoration: none;
-                text-align: start;
                 font-size: 15px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
+                border-style: groove;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 30px;
+            }
+                .footer__formato{
+                    font-size: 15px;
+                    list-style: none;
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    text-align: start;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                }
 
                 .footer__redes{
                     margin: 10px;
-                
+                    
+                    .mplogo{
+                        width: 20px;
+                        height: 20px;
+                    }
 
                     .footer__linkredes {
                     text-decoration: none;
@@ -163,4 +175,5 @@ footer {
             }
         }
     }
-}
+
+ 
